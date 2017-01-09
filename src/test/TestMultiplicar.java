@@ -20,6 +20,11 @@ public class TestMultiplicar {
 		assertEquals(16, mult(4,4));
 	}
 	
+	@Test
+	public void testMultiplicar4(){
+		assertEquals(25, mult(5,5));
+	}
+	
 	int mult(int a, int b){
 		return multiplicar.Multiplicacion.multiplicacion(a, b);
 	}
